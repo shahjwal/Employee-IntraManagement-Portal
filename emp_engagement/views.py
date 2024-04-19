@@ -6,8 +6,12 @@ from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from django.urls import reverse
 from .decorators import login_access_only
+from django.http import JsonResponse
+from django.shortcuts import render
+
 
 # Create your views here.
+
 
 def login_page(request):
     return render(request, 'login.html')
@@ -89,6 +93,7 @@ def register_user(request):
         
                  
     return render(request,'register.html')
+
 
 @login_access_only
 def logout_user(request):

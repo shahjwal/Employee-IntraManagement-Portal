@@ -15,5 +15,7 @@ urlpatterns = [
     path('task', views.task, name='task'),
     path('timesheet', views.timesheet, name='timesheet'),
     path('leave', views.leave, name='leave'),
+
     
 ]
+

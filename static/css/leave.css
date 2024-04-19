@@ -1,0 +1,54 @@
+:root {
+    --primary-color: #4747a1;
+    --secondary-color:#f4f7fe;
+}
+
+* {
+    font-size: 25px;
+}
+
+#profile-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#leaveFormContent{
+    display: none;
+}
+
+#leavesection2heading{
+    margin-top: 50px;
+}
+
+#leaveForm{
+    margin-top: 100px;
+}
+
+.form-group{
+    margin-top: 50px;
+}
+button {
+    margin-top: 50px;
+    width: 50%;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+table, th, td {
+    border: 1px solid black; /* Define the border */
+    border-collapse: collapse; /* Collapse borders between cells */
+    padding: 8px; /* Add padding to cells */
+}
+
+/* Optional: Add styling for table header */
+th {
+    background-color: #f2f2f2; /* Light grey background */
+}

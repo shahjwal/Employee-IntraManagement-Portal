@@ -39,3 +39,4 @@ class user_data(models.Model):
     
     def __str__(self):
         return self.Username
+
